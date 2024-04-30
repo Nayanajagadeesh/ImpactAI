@@ -75,7 +75,7 @@ def fertilizer_recommendation():
 # render crop recommendation result page
 @app.route('/crop-predict', methods=['POST'])
 def crop_prediction():
-    title = 'Harvestify - Crop Recommendation'
+    title = 'Krushi crop'
 
     if request.method == 'POST':
         N = int(request.form['nitrogen'])
